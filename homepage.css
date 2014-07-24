@@ -29,6 +29,7 @@ body {
 .image_wrap {
 	position: relative;
 	margin-bottom: 32px;
+	width: 100%;
 	transition-timing-function: linear;
 }
 

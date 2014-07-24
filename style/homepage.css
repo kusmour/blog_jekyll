@@ -9,19 +9,28 @@ body {
 
 .site_name {
 	float: left;
-	width: 20%;
+	width: 30%;
 	font-size: 16px;
 	font-weight: bold;
 	height: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-bottom: 16px;
 }
 
 .top_navigation {
 	float: left;
+	font-weight: bold;
+	height: 20px;
+	margin-bottom: 16px;
+	text-transform: uppercase;
 }
 
 .image_wrap {
 	position: relative;
+	margin-bottom: 32px;
+	width: auto;
+	transition-timing-function: linear;
 }
 
 .image_credit {
@@ -37,4 +46,11 @@ body {
 	width: 30%;
 	margin-left: 20%;
 	margin-right: 20%;
+}
+
+.bio_photo {
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	height: 100px;
+	width: 125px;
 }

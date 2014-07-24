@@ -29,14 +29,20 @@ body {
 .image_wrap {
 	position: relative;
 	margin-bottom: 32px;
-	width: auto;
+	width: 100%;
 	transition-timing-function: linear;
 }
 
-.banner_photo {
+/*.banner_photo {
 	background: url("../photos/banner.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+	width: 100%;
+}
+*/
+
+#banner_photo {
+	height: auto;
 }
 
 .image_credit {
@@ -50,13 +56,12 @@ body {
 	color: rgb(51, 51, 50);
 	float: left;
 	width: 30%;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .bio_photo {
-	border-bottom-left-radius: 100px;
-	border-bottom-right-radius: 100px;
+	border-radius: 100px;
 	height: 100px;
 	width: 125px;
 }

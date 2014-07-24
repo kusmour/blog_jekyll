@@ -33,6 +33,12 @@ body {
 	transition-timing-function: linear;
 }
 
+.banner_photo {
+	background: url(../photos/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .image_credit {
 	color: rgb(128, 128, 126);
 }

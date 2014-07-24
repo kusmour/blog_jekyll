@@ -1,0 +1,55 @@
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navigation_bar {
+	margin: 0px;
+	padding-top: 32px;
+}
+
+.site_name {
+	float: left;
+	width: 30%;
+	font-size: 16px;
+	font-weight: bold;
+	height: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 16px;
+}
+
+.top_navigation {
+	float: left;
+	font-weight: bold;
+	height: 20px;
+	margin-bottom: 16px;
+	text-transform: uppercase;
+}
+
+.image_wrap {
+	position: relative;
+	margin-bottom: 32px;
+	transition-timing-function: linear;
+}
+
+.image_credit {
+	color: rgb(128, 128, 126);
+}
+
+.info {
+}
+
+.author_side {
+	color: rgb(51, 51, 50);
+	float: left;
+	width: 30%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.bio_photo {
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	height: 100px;
+	width: 125px;
+}

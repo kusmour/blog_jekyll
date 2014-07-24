@@ -34,7 +34,7 @@ body {
 }
 
 .banner_photo {
-	background: url(../photos/banner.jpg);
+	background: url("../photos/banner.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 }

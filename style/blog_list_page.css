@@ -111,7 +111,7 @@ article {
 .article_list a{
 	font-size: 30px;
 	font-weight: bold;
-	margin: 0px;
+	padding: 0px;
 }
 
 .article_list a:link{

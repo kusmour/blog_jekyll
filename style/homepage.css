@@ -5,25 +5,41 @@ body {
 .navigation_bar {
 	margin: 0px;
 	padding-top: 32px;
+	font-size: 16px;
 }
 
 .site_name {
 	float: left;
-	width: 30%;
-	font-size: 16px;
+	width: 20%;
 	font-weight: bold;
 	height: 20px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 16px;
 }
 
 .top_navigation {
 	float: left;
+	display: inline;
 	font-weight: bold;
 	height: 20px;
 	margin-bottom: 16px;
 	text-transform: uppercase;
+}
+
+.nav {
+	height: 20px;
+}
+
+ul {
+	overflow: hidden;
+	clear: both;
+	margin-top: 0px;
+}
+
+li {
+	display: inline;
+	margin-right: 25px;
 }
 
 .image_wrap {
@@ -33,35 +49,79 @@ body {
 	transition-timing-function: linear;
 }
 
-/*.banner_photo {
-	background: url("../photos/banner.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-}
-*/
-
 #banner_photo {
 	height: auto;
 }
 
 .image_credit {
+	float: left;
+	width: 75%;
 	color: rgb(128, 128, 126);
+	font-style: italic;
+	text-align: right;
 }
 
 .info {
+	margin-top: 1em;
+	clear: both;
+	counter-reset: captions;
+	height: auto;
 }
 
 .author_side {
 	color: rgb(51, 51, 50);
 	float: left;
-	width: 30%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 16%;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 4%;
+}
+
+h3 {
+	/*text-align: center;*/
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+div.author_side p {
+	font-style: italic;
 }
 
 .bio_photo {
 	border-radius: 100px;
 	height: 100px;
 	width: 125px;
+}
+
+a:link{
+	text-decoration: none solid;
+	color: gray;
+}
+
+a:visited{
+	color: gray;
+}
+
+a:hover{
+	color: rgb(51, 51, 50);
+}
+
+article {
+	float: left;
+	margin-bottom: 32px;
+}
+
+.article_wrap {
+	padding-left: 40px;
+}
+
+.footer_wrap {
+	padding-bottom: 3em;
+}
+
+footer {
+	margin-right: 25%;
+	margin-left: 25%;
 }

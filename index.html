@@ -61,7 +61,14 @@ title: kusMour
 				<h1><br></h1>
 				<div class="article_wrap">
 					<p>Not much to say.</p>
-					{{ content }}
+					<ul class = "article_list">
+						{% for post in site.posts %}
+						<li>
+							<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+							{{ post.date | date_to_string }} 
+						</li>
+						{% endfor %}
+					</ul>
 				</div>
 				<!-- /.article-wrap -->
 			</article>

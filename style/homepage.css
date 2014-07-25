@@ -4,21 +4,25 @@ body {
 
 a:link{
 	text-decoration: none solid;
-	color: gray;
+	color: #676767;
 }
 
 a:visited{
-	color: gray;
+	color: #676767;
 }
 
 a:hover{
 	color: rgb(51, 51, 50);
 }
 
+p {
+	font-size: 20px;
+}
+
 .navigation_bar {
 	margin: 0px;
 	padding-top: 32px;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .site_name {
@@ -69,8 +73,11 @@ li {
 	float: left;
 	width: 75%;
 	color: rgb(128, 128, 126);
+	font-family: 'PT Serif', serif;
 	font-style: italic;
+	font-size: 14px;
 	text-align: right;
+	padding-top: 5px;
 }
 
 .info {
@@ -94,10 +101,11 @@ h3 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: bold;
 	font-size: 30px;
-	margin-top: 10px;
+	margin: 10px 0px;
 }
 
 div.author_side p {
+	font-size: 18px;
 	font-style: italic;
 }
 
@@ -107,13 +115,29 @@ div.author_side p {
 	width: 125px;
 }
 
+.author_social {
+	font-size: 20px;
+}
+
 article {
 	float: left;
+	width: 60%;
 	margin-bottom: 32px;
 }
 
 .article_wrap {
 	padding-left: 40px;
+}
+
+
+.article_list {
+	float: left;
+	font-size: 20px;
+}
+
+.article_list a {
+	font-weight: bold;
+	font-size: 25px;
 }
 
 .footer_wrap {

@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Article: {{ page.title }}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-		<link href="{{site.baseurl}}/style/homepage.css" type="text/css" rel="stylesheet" />
+		<link href="{{site.baseurl}}/style/article_page.css" type="text/css" rel="stylesheet" />
 		<link rel="stylesheet" href="{{site.baseurl}}/style/font-awesome/css/font-awesome.min.css">
 
 		<script src="{{site.baseurl}}/js/jquery.min.js"></script>
@@ -33,9 +33,9 @@
 
 		</div>
 
-		<div role = "main" class = "info">
+		<div role = "main" class = "main">
 			<div class = "author_side">
-    			<img src="../photos/bio_photo.jpg" class="bio_photo" alt="Yip YuenYee bio photo">
+    			<img src="{{site.baseurl}}/photos/bio_photo.jpg" class="bio_photo" alt="Yip YuenYee bio photo">
 				<h3>Yip YuenYee</h3>
 				<p>University Student, Traveller, Photographer</p>
 
@@ -49,11 +49,8 @@
 			</div>
 
 			<article>
-				<h1><br></h1>
 				<div class="article_wrap">
-					<ul class = "article_list">
-						{{ content }}
-					</ul>
+					{{ content }}
 				</div>
 				<!-- /.article-wrap -->
 			</article>

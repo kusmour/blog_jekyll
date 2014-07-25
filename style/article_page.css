@@ -1,0 +1,127 @@
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+a:link{
+	text-decoration: none solid;
+	color: #676767;
+}
+
+a:visited{
+	color: #676767;
+}
+
+a:hover{
+	color: rgb(51, 51, 50);
+}
+
+p {
+	font-size: 20px;
+}
+
+.navigation_bar {
+	margin: 0px;
+	padding-top: 32px;
+	font-size: 20px;
+}
+
+.site_name {
+	float: left;
+	width: 20%;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 16px;
+}
+
+.top_navigation {
+	float: left;
+	display: inline;
+	font-weight: bold;
+	height: 20px;
+	margin-bottom: 16px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+
+.nav {
+	height: 20px;
+}
+
+ul {
+	overflow: hidden;
+	margin-top: 0px;
+}
+
+.top_navigation li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.main {
+	margin-top: 1em;
+	clear: both;
+	counter-reset: captions;
+	height: auto;
+}
+
+.author_side {
+	color: rgb(51, 51, 50);
+	float: left;
+	width: 16%;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 4%;
+}
+
+h3 {
+	/*text-align: center;*/
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 10px 0px;
+}
+
+div.author_side p {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.bio_photo {
+	border-radius: 100px;
+	height: 100px;
+	width: 125px;
+}
+
+.author_social {
+	font-size: 20px;
+}
+
+article {
+	float: left;
+	width: 60%;
+	margin-bottom: 32px;
+}
+
+.article_wrap {
+	padding-left: 40px;
+}
+
+.article_wrap h2 {
+	font-size: 30px;
+}
+
+.article_wrap p {
+	font-size: 16px;
+	text-indent: 2em;
+}
+
+.footer_wrap {
+	padding-bottom: 3em;
+}
+
+footer {
+	margin-right: 25%;
+	margin-left: 25%;
+}

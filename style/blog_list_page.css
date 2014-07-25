@@ -4,15 +4,15 @@ body {
 
 a:link{
 	text-decoration: none solid;
-	color: #676767;
+	color: black;
 }
 
 a:visited{
-	color: #676767;
+	color: black;
 }
 
 a:hover{
-	color: rgb(51, 51, 50);
+	color: #696969;
 }
 
 p {
@@ -59,29 +59,7 @@ ul {
 	margin-right: 25px;
 }
 
-.image_wrap {
-	position: relative;
-	margin-bottom: 32px;
-	width: 100%;
-	transition-timing-function: linear;
-}
-
-#banner_photo {
-	height: auto;
-}
-
-.image_credit {
-	float: left;
-	width: 75%;
-	color: ＃808080;
-	font-family: 'PT Serif', serif;
-	font-style: italic;
-	font-size: 14px;
-	text-align: right;
-	padding-top: 5px;
-}
-
-.info {
+.main {
 	margin-top: 1em;
 	clear: both;
 	counter-reset: captions;
@@ -130,15 +108,19 @@ article {
 	padding-left: 40px;
 }
 
-
-.article_list {
-	float: left;
-	font-size: 20px;
+.article_list a{
+	font-size: 30px;
 }
 
-.article_list a {
-	font-weight: bold;
-	font-size: 25px;
+.article_list p {
+	color: #808080;
+	font-size: 16px;
+	font-style: italic;
+	text-indent: 2em;
+}
+
+.article_list li {
+	list-style: none;
 }
 
 .footer_wrap {

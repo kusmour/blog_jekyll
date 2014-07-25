@@ -4,15 +4,15 @@ body {
 
 a:link{
 	text-decoration: none solid;
-	color: black;
+	color: #676767;
 }
 
 a:visited{
-	color: black;
+	color: #676767;
 }
 
 a:hover{
-	color: #696969;
+	color: rgb(51, 51, 50);
 }
 
 p {
@@ -110,6 +110,21 @@ article {
 
 .article_list a{
 	font-size: 30px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.article_list a:link{
+	text-decoration: none solid;
+	color: black;
+}
+
+.article_list a:visited{
+	color: black;
+}
+
+.article_list a:hover{
+	color: #696969;
 }
 
 .article_list p {

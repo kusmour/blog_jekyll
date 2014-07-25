@@ -28,8 +28,8 @@ p {
 .site_name {
 	float: left;
 	width: 20%;
+	font-size: 25px;
 	font-weight: bold;
-	height: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 16px;
@@ -41,6 +41,7 @@ p {
 	font-weight: bold;
 	height: 20px;
 	margin-bottom: 16px;
+	padding-top: 5px;
 	text-transform: uppercase;
 }
 

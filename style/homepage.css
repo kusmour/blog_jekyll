@@ -2,6 +2,19 @@ body {
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 
+a:link{
+	text-decoration: none solid;
+	color: gray;
+}
+
+a:visited{
+	color: gray;
+}
+
+a:hover{
+	color: rgb(51, 51, 50);
+}
+
 .navigation_bar {
 	margin: 0px;
 	padding-top: 32px;
@@ -93,19 +106,6 @@ div.author_side p {
 	border-radius: 100px;
 	height: 100px;
 	width: 125px;
-}
-
-a:link{
-	text-decoration: none solid;
-	color: gray;
-}
-
-a:visited{
-	color: gray;
-}
-
-a:hover{
-	color: rgb(51, 51, 50);
 }
 
 article {

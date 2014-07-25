@@ -108,10 +108,14 @@ article {
 	padding-left: 40px;
 }
 
+.article_list {
+	padding-top: 20px;
+	padding-left: 0px;
+}
+
 .article_list a{
 	font-size: 30px;
 	font-weight: bold;
-	padding: 0px;
 }
 
 .article_list a:link{

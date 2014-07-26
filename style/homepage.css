@@ -60,6 +60,7 @@ ul {
 }
 
 .top_line {
+	display: block;
 	width: 0px;
 	height: 2px;
 	background-color: black;

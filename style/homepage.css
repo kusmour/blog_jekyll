@@ -57,6 +57,7 @@ ul {
 .top_navigation li {
 	display: inline;
 	margin-right: 25px;
+	width: 70px;
 }
 
 .top_line {

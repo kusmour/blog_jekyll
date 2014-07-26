@@ -60,6 +60,10 @@ ul {
 	width: 70px;
 }
 
+nav {
+	display: block;
+}
+
 .top_line {
 	display: block;
 	width: 0px;

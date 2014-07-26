@@ -56,8 +56,8 @@ ul {
 }
 
 .top_navigation li {
-	position: absolute;
 	display: inline;
+	position: absolute;
 	margin-right: 25px;
 	width: 70px;
 }

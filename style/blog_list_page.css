@@ -20,7 +20,6 @@ p {
 }
 
 .navigation_bar {
-	position: fixed;
 	margin: 0px;
 	padding-top: 32px;
 	font-size: 20px;
@@ -41,7 +40,6 @@ p {
 	display: inline;
 	font-weight: bold;
 	height: 20px;
-	left: 30%;
 	margin-bottom: 16px;
 	padding-top: 5px;
 	text-transform: uppercase;
@@ -69,6 +67,7 @@ ul {
 }
 
 .author_side {
+	position: fixed;
 	color: rgb(51, 51, 50);
 	float: left;
 	width: 16%;

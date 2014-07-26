@@ -60,8 +60,26 @@ ul {
 	width: 70px;
 }
 
-nav {
-	display: block;
+.menu li a:before,.menu li a:after {
+	content:'';
+	display:block;
+	position:absolute;
+	top:0;left:0;
+	height:2px;
+	-webkit-transition:width 0.3s;
+	-moz-transition:width 0.3s;
+	transition:width 0.3s;
+}
+.menu li a:before {
+	width:100%;
+	background:transparent;
+}
+.menu li a:after {
+	width:0;
+	background:#000;
+}
+.menu li a:active:after,.menu li a:hover:after {
+	width:100%;
 }
 
 .top_line {

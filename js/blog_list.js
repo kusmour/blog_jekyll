@@ -8,5 +8,5 @@ $(document).ready(function() {
 
 function nav_and_author() {
 	var scrolled = $(window).scrollTop();
-	$(".author_side").css("top", scrolled + "px");
+	$("").css("top", scrolled + "px");
 }

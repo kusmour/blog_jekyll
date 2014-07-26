@@ -20,6 +20,7 @@ p {
 }
 
 .navigation_bar {
+	position: fixed;
 	margin: 0px;
 	padding-top: 32px;
 	font-size: 20px;

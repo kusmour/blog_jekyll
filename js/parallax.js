@@ -19,7 +19,7 @@ function parallaxScroll(){
 }
 
 function footer() {
-	var footer_top = $('#srilanka').css('bottom');
+	var footer_top = $(window).bottom;
 	//alert(footer_top);
-	$(".footer_wrap").css('top', 1838 +'px');
+	$(".footer_wrap").css('top', footer_top +'px');
 }

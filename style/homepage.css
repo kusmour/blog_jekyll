@@ -53,12 +53,12 @@ p {
 ul {
 	overflow: hidden;
 	margin-top: 0px;
+	position: absolute;
 }
 
 .top_navigation li {
-	display: list-item;
+	display: inline;
 	float: left;
-	position: absolute;
 	margin-right: 25px;
 	width: 70px;
 }

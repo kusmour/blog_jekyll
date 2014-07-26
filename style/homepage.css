@@ -57,6 +57,7 @@ ul {
 
 .top_navigation li {
 	display: list-item;
+	float: left;
 	position: absolute;
 	margin-right: 25px;
 	width: 70px;

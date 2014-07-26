@@ -60,9 +60,10 @@ ul {
 }
 
 .top_line {
+	float: left;
 	width: 0px;
 	height: 2px;
-	background:blue;
+	background-color: black;
 	transition: width 0.2s;
 	-moz-transition: width 0.2s; /* Firefox 4 */
 	-webkit-transition: width 0.2s; /* Safari and Chrome */

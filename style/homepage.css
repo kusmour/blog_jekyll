@@ -59,6 +59,20 @@ ul {
 	margin-right: 25px;
 }
 
+.top_line {
+	width: 0px;
+	height: 2px;
+	background:blue;
+	transition: width 0.2s;
+	-moz-transition: width 0.2s; /* Firefox 4 */
+	-webkit-transition: width 0.2s; /* Safari and Chrome */
+	-o-transition: width 0.2s; /* Opera */
+}
+
+.top_line:hover {
+	width: 39px;
+}
+
 .image_wrap {
 	position: relative;
 	margin-bottom: 32px;

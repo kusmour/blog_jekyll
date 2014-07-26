@@ -1,0 +1,44 @@
+body {
+	height: 4500px;
+}
+
+.display {
+	margin-left: 30%;
+	padding-left: 40px;
+	position: relative;
+}
+
+.content {
+	z-index: 4;
+	position: relative;
+	float: left;
+}
+
+.display img {
+	width: 1024px;
+}
+
+#parallax-bg3 {
+	z-index: 3;
+	position: fixed;
+}
+
+#parallax-bg2 {
+	z-index: 2;
+	position: fixed;
+}
+
+#parallax-bg1 {
+	z-index: 1;
+	position: fixed;
+}
+
+#life {
+	position: absolute;
+	top: 49px;
+}
+
+#srilanka {
+	position: absolute;
+	top: 1073px;
+}

@@ -60,6 +60,11 @@ ul {
 	width: 70px;
 }
 
+.menu li a {
+	position: relative;
+	display: block;
+}
+
 .menu li a:before,.menu li a:after {
 	content: '';
 	display: block;

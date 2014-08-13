@@ -8,17 +8,17 @@ article {
 	padding-left: 40px;
 }
 
-.article_list h1 {
-	width: 80%;
-	font-size: 30px;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	border-bottom: 1px solid #c3c3c3;
-}
-
 .article_list {
+	width: 70%;
 	padding-top: 20px;
 	padding-left: 0px;
+}
+
+.article_list h1 {
+	font-size: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #c3c3c3;
 }
 
 .article_list a{

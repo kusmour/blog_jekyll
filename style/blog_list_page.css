@@ -17,7 +17,7 @@ article {
 	font-size: 30px;
 	padding-bottom: 10px;
 	margin-top: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	border-bottom: 1px solid #c3c3c3;
 }
 
@@ -43,7 +43,7 @@ article {
 	color: #808080;
 	font-size: 16px;
 	font-family: 'PT Serif', serif;
-	/*font-style: italic;
-	text-indent: 2em;*/
+	/*font-style: italic;*/
+	text-indent: 0em;
 	margin-top: 0px;
 }

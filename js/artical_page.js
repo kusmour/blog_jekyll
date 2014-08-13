@@ -1,6 +1,6 @@
 $(document).ready( function() {
 	//alert("hello");
-	var width_ = $(document.body).width() * 0.5;
+	var width_ = $(document.body).width() * 0.7;
 	$("#illustration").css("width", width_ + "px");
 
 	$( window ).resize( function() {

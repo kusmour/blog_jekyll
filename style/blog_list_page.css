@@ -9,10 +9,11 @@ article {
 }
 
 .article_list h1 {
+	width: 80%;
 	font-size: 30px;
 	padding-bottom: 20px;
 	margin-bottom: 10px;
-	border: 1px solid #c3c3c3;
+	border-bottom: 1px solid #c3c3c3;
 }
 
 .article_list {

@@ -16,7 +16,8 @@ article {
 .article_list h1 {
 	font-size: 30px;
 	padding-bottom: 10px;
-	margin-bottom: 30px;
+	margin-top: 5px;
+	margin-bottom: 50px;
 	border-bottom: 1px solid #c3c3c3;
 }
 

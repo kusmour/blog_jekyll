@@ -17,6 +17,10 @@ article {
 	text-indent: 2em;
 }
 
+.illustration {
+	width: 60%;
+}
+
 .footer_wrap {
 	padding-bottom: 3em;
 }

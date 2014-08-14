@@ -1,75 +1,168 @@
+<!DOCTYPE html>
 ---
 layout: default
 title: Horizon
 homepage: kusMour
 ---
 
-<!DOCTYPE html>
-<html>
+<html class=" js canvas canvastext hb-loaded">
 	<head>
-		<meta charset="utf-8" />
 		<title>{{ page.title }}</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-		<link href="{{site.baseurl}}/style/homepage.css" type="text/css" rel="stylesheet" />
-		<link rel="stylesheet" href="{{site.baseurl}}/style/font-awesome/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="description" content="A parallax scrolling experiment using jQuery">
 
-		<script src="{{site.baseurl}}/js/jquery.min.js"></script>
-		<!-- link to your script file here -->
-		<script type="text/javascript" src="{{site.baseurl}}/js/homepage.js"></script>
-		<script type="text/javascript" src="{{site.baseurl}}/js/parallax.js"></script>
+		<link rel="stylesheet" media="all" href="style/horizon.css">
+		<link href="style/homepage.css" type="text/css" rel="stylesheet" />
 
+		<script src="js/modernizr.custom.37797.js"></script> 
+		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+		<script src="js/jquery.min.js"></script>
+		<script src="js/parallax.js"></script>
+		<script type="text/javascript" src="js/homepage.js"></script>
+		<!--
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		-->
+		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
 	</head>
 
 	<body>
 		<div class = "navigation_bar">
 
 			<div class = "site_name">
-				<a href="http://kusmour.github.io/blog_jekyll">{{ page.homepage }}</a>
+				<a href="http://kusmour.github.io/blog_jekyll">{{ page.title }}</a>
 			</div>
 
 			<div class = "top_navigation">
-				<nav role="navigation" id="site_nav" class="nav">
+				<nav role="navigation" id="site_nav" class="menu">
 					<ul>    
-						<li><a href="{{ site.baseurl }}/blog_list.html">Blog</a></li>
-						<li><a href="{{ site.baseurl }}/horizon.html">Horizon</a></li>
+						<li>
+							<a href="{{ site.baseurl }}/blog_list.html">Blog</a>
+						</li>
+						<li>
+							<a href="{{ site.baseurl }}/horizon.html">Horizon</a>
+						</li>
 					</ul>
 				</nav>
+				<div style="clear:both"></div>
 			</div>
 
 			<div style="clear:both"></div>
 
 		</div>
 
-
-		<div class = "display">
-			<div class = "cotent">
-				<div class = "life">
+		<div id="wrapper">
+			
+			<header id="branding">
+				<h1>Horizon & Memory</h1>
+			</header>
+			
+			<nav id="primary">
+				<ul>
+					<li>
+						<h1>Some Thing From Daily Life</h1>
+						<a class="life" href="#life">View</a>
+					</li>
+					<li>
+						<h1>The Srilanka Trip</h1>
+						<a class="srilanka" href="#srilanka">View</a>
+					</li>
+					<li>
+						<h1>15 Days In Japan</h1>
+						<a class="japan" href="#japan">View</a>
+					</li>
+					<li>
+						<h1>About</h1>
+						<a class="about active" href="#about">View</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<div id="content">
+				<article id="life">
+					<header>
+						<h1>Some Thing From Daily Life</h1>
+					</header>
+					<p>Like taking photos in daily life. People we met, the road we traveled, or some food. All of them can be beautiful, as long as you pay attention to them.</p>
+					<nav class="next-prev">
+						<hr>
+						<a class="next srilanka" href="#srilanka">Next</a>
+					</nav>
+				</article>
+				
+				<article id="srilanka">
+					<header>
+						<h1>The Srilanka Trip</h1>
+					</header>
+					<p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
+					<nav class="next-prev">
+						<a class="prev life" href="#life">Prev</a>
+						<hr>
+						<a class="next japan" href="#japan">Next</a>
+					</nav>
+				</article>
+				
+				<article id="japan">
+					<header>
+						<h1>15 Days In Japan</h1>
+					</header>
+					<p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
+					<nav class="next-prev">
+						<a class="prev srilanka" href="#srilanka">Prev</a>
+						<hr>
+						<a class="next about" href="#about">Next</a>
+					</nav>
+				</article>
+				
+				<article id="about">
+					<header>
+						<h1>About</h1>
+					</header>
+					<p>This is a jQuery parallax scrolling experiment by Jonathan Nicol. <a href="http://f6design.com/journal/2011/08/06/build-a-parallel-scrolling-website-interface-with-jquery-and-css/">Read about it</a> on my blog.</p>
+					<nav class="next-prev">
+						<a class="prev japan" href="#japan">Prev</a>
+						<hr>
+					</nav>
+				</article>
+			</div>
+			
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3" style="top: -3198px;">
+				<img id="bg3-1" src="photos/horizon/main-1.png" alt="daily life cloud photo">
+				<img id="bg3-2" src="photos/horizon/main-2.png" alt="srilanka sunset">
+				<img id="bg3-3" src="photos/horizon/main-3.png" alt="japan overview">
+				<img id="bg3-4" src="photos/horizon/main-4.png" alt="photo">
+				<div class="footer_wrap1">
+					<footer>
+						<span>© 2014 Yip YuenYee. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">Minimal Mistakes</a> theme.</span>
+					</footer>
 				</div>
-				<div class = "srilanka">
-				</div>
+
+			</div>
+			
+			<!-- Parallax  midground clouds -->
+			<div id="parallax-bg2" style="top: -2132px;">
+				<img id="bg2-1" src="photos/horizon/bg2-1.png" alt="cloud">
+				<img id="bg2-2" src="photos/horizon/blue1.png" alt="cloud">
+				<img id="bg2-3" src="photos/horizon/bg2-3.png" alt="srilanka">
+				<img id="bg2-4" src="photos/horizon/blue1.png" alt="cloud">
+				<img id="bg2-5" src="photos/horizon/blue1.png" alt="cloud">
+			</div>
+			
+			<!-- Parallax  background clouds -->
+			<div id="parallax-bg1" style="top: -1066px;">
+				<img id="bg1-1" src="photos/horizon/blue2.png" alt="cloud">
+				<img id="bg1-2" src="photos/horizon/blue2.png" alt="cloud">
+				<img id="bg1-3" src="photos/horizon/blue2.png" alt="cloud">
+				<img id="bg1-4" src="photos/horizon/blue2.png" alt="cloud">
 			</div>
 
-			<div id = "parallax-bg3">
-				<img id = "life" src = "{{site.baseurl}}/photos/horizon/life-3.png" alt = "first column">
-				<img id = "srilanka" src = "{{site.baseurl}}/photos/horizon/srilanka-3.png" alt = "second column">
-			</div>
-			<div id = "parallax-bg2">
-				<img id = "life" src = "{{site.baseurl}}/photos/horizon/life-2.png" alt = "first column">
-				<img id = "srilanka" src = "{{site.baseurl}}/photos/horizon/srilanka-2.png" alt = "second column">
-			</div>
-			<div id = "parallax-bg1">
-				<img id = "life" src = "{{site.baseurl}}/photos/horizon/life-1.png" alt = "first column">
-				<img id = "srilanka" src = "{{site.baseurl}}/photos/horizon/srilanka-1.png" alt = "second column">
-			</div>
+			<div style="clear:both"></div>
+
 		</div>
 
+		<div style="clear:both"></div>
 
-		<div class="footer_wrap">
-			<footer>
-				<span>© 2014 Yip YuenYee. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">Minimal Mistakes</a> theme.</span>
-			</footer>
-		</div>
 
 	</body>
 </html>

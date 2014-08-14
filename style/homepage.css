@@ -51,16 +51,16 @@ p {
 	height: 20px;
 }
 
-ul {
-	overflow: hidden;
-	margin-top: 0px;
-	position: absolute;
-}
-
 .top_navigation li {
 	display: inline;
 	float: left;
 	margin-right: 25px;
+}
+
+.menu ul {
+	overflow: hidden;
+	margin-top: 0px;
+	position: absolute;
 }
 
 .menu li a {
@@ -192,6 +192,7 @@ article {
 }
 
 footer {
+	font-size: 16px;
 	margin-right: 25%;
 	margin-left: 25%;
 }

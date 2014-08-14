@@ -12,6 +12,7 @@ article {
 .article_wrap {
 	padding-left: 40px;
 	font-family: fzqkby;
+	letter-spacing: 1px;
 }
 
 .article_wrap h2 {

@@ -65,7 +65,7 @@ body {
 	line-height: 1.5;
 	color: #000;
 	font-size: 16px;
-	font-family: Arial,sans-serif;
+	font-family: Arial, sans-serif;
 }
 h1 {
 	color: #3c88e0;
@@ -133,6 +133,7 @@ nav#primary {
 	top: 50%;
 	right: 16px;
 	margin-top: -40px;
+	font-family: Arial, sans-serif;
 }
 nav#primary ul {
 	background-color: #676767;
@@ -230,6 +231,9 @@ nav.next-prev {
 				font-weight: normal;
 				line-height: 65px;
 				}
+			#content p {
+				font-family: Arial, sans-serif;
+			}
 		#about {
 			position: absolute;
 			top: 3270px;
@@ -255,12 +259,12 @@ nav.next-prev {
 	#bg3-1 {
 		position: absolute;
 		top: -51px;
-		left: 355px;
+		left: 370px;
 		}
 	#bg3-2 {
 		position: absolute;
-		top: 812px;
-		left: 321px;
+		top: 852px;
+		left: 361px;
 		}
 	#bg3-3 {
 		position: absolute;
@@ -292,12 +296,12 @@ nav.next-prev {
 	margin-left: -600px; /* move left by half element's width */
 	}
 	#parallax-bg2 img {
-		height: 250px;
+		height: 220px;
 	}
 
 	#bg2-1 {
 		position: absolute;
-		top: 172px;
+		top: 252px;
 		left: 300px;
 		}
 	#bg2-2 {
@@ -307,13 +311,13 @@ nav.next-prev {
 		}
 	#bg2-3 {
 		position: absolute;
-		top: 700px;
-		left: 5px;
+		top: 635px;
+		left: 95px;
 		}
 	#bg2-4 {
 		position: absolute;
 		top: 1180px;
-		left: 250px;
+		left: 400px;
 		}
 	#bg2-5 {
 		position: absolute;
@@ -330,7 +334,7 @@ nav.next-prev {
 	margin-left: -600px; /* move left by half element's width */
 	}
 	#parallax-bg1 img {
-		height: 150px;
+		height: 140px;
 	}
 
 	#bg1-1 {
@@ -346,11 +350,11 @@ nav.next-prev {
 		}
 	#bg1-3 {
 		position: absolute;
-		top: 900px;
+		top: 850px;
 		left: -220px;
 		}
 	#bg1-4 {
 		position: absolute;
 		top: 1020px;
-		left: 450px;
+		left: 500px;
 		}

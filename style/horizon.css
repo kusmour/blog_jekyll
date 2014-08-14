@@ -274,14 +274,14 @@ nav.next-prev {
 	#bg3-4 {
 		position: absolute;
 		top: 2700px;
-		left: -85px;
+		left: -155px;
 		}
 
 .footer_wrap1 {
 	width: 100%;
 	position: absolute;
 	/*bottom: 100px;*/
-	top: 3400px;
+	top: 3500px;
 	padding-bottom: 3em;
 }
 

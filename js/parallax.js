@@ -11,7 +11,7 @@ $(document).ready(function() {
 	/* Next/prev and primary nav btn click handlers */
 	$('a.life').click(function(){
     	$('html, body').animate({
-    		scrollTop:0
+    		scrollTop:$('#life').offset().top
     	}, 1000, function() {
 	    	parallaxScroll(); // Callback is required for iOS
 		});

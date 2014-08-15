@@ -41,20 +41,20 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 <p>我之前并没有了解过Disqus，甚至没有听过，搜了一下惊呆了，据说是媲美Facebook的评论系统，而且可以嵌入到自己的主页里面，这个兼容性也是很强的。之前说觉得很难，真的是冤枉了Disqus服务的便利性。对于自己写的网页，只需要粘贴下面这段代码到html文件里面，你希望评论功能面板出现的位置就可以了。然后注册一下，添加博客的网址，finish！</p>
 
 <!-- here comes the code using google code prettify-->
-<pre class="prettyprint">
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'example'; // required: replace example with your forum shortname 这个地方需要改成你配置的网站名
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<pre class="prettyprint lang-html">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'example'; // required: replace example with your forum shortname 这个地方需要改成你配置的网站名
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </pre>
 <br>
 
@@ -71,8 +71,8 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 
 <p>最后，这篇文章实在是写得很糟糕，只好在文章结尾送点福利啦，看，就是它 <i class="fa-gift"></i>。一个我经常用的icon样式，就像div那样可以直接使用，网站涵盖了很多方面的图标，大小调节跟字体是一样的，方便嵌入到文字中。使用方法如下：</p>
 
-<pre class="prettyprint">
-<i class="fa-gift"></i>
+<pre class="prettyprint lang-html">
+	<i class="fa-gift"></i>
 </pre>
 
 <p>最后的最后，感谢看到这里的人。</p>

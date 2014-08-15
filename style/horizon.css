@@ -264,7 +264,7 @@ nav.next-prev {
 	#bg3-2 {
 		position: absolute;
 		top: 852px;
-		left: 361px;
+		left: 370px;
 		}
 	#bg3-3 {
 		position: absolute;
@@ -307,7 +307,7 @@ nav.next-prev {
 	#bg2-2 {
 		position: absolute;
 		top: 300px;
-		left: 1050px;
+		left: 950px;
 		}
 	#bg2-3 {
 		position: absolute;
@@ -316,7 +316,7 @@ nav.next-prev {
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 1180px;
+		top: 1280px;
 		left: 400px;
 		}
 	#bg2-5 {
@@ -355,6 +355,6 @@ nav.next-prev {
 		}
 	#bg1-4 {
 		position: absolute;
-		top: 1020px;
-		left: 500px;
+		top: 1080px;
+		left: 400px;
 		}

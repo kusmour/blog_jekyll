@@ -43,3 +43,7 @@ footer {
 	margin-right: 25%;
 	margin-left: 25%;
 }
+
+#disqus_thread {
+	padding-left: 30px;
+}

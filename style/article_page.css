@@ -47,3 +47,11 @@ footer {
 #disqus_thread {
 	padding-left: 30px;
 }
+
+.inline a {
+	font-weight: bold;
+}
+
+i {
+	font-family: Arial, sans-serif;
+}

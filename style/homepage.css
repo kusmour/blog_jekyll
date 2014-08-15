@@ -176,15 +176,8 @@ article {
 	padding-left: 40px;
 }
 
-
-.article_list {
-	float: left;
-	font-size: 20px;
-}
-
-.article_list a {
+.notice {
 	font-weight: bold;
-	font-size: 25px;
 }
 
 .footer_wrap {

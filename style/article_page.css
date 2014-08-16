@@ -38,7 +38,7 @@ span.link {
 	font-weight: bold;
 	font-family: 'PT Sans Narrow';
 	font-size: 20px;
-	list-style-type: none;
+	text-decoration: underline;
 }
 
 .article_wrap br {

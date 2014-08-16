@@ -6,17 +6,16 @@ pre {
     word-wrap: break-word; /* Internet Explorer 5.5+ */
 
     background-color: #000;
-    padding: 15px 0px 15px 15px;
+    padding: 10px 15px 10px 15px;
     overflow: auto;
     margin-bottom: 40px;
     margin-top: 0px;
     font-size: 14px;
     border: 1px solid #eee;
-    -webkit-border-radius: 4px 4px 4px 4px;
-    -moz-border-radius: 4px 4px 4px 4px;
-    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
     color: #b9bdb6;
-    line-height: 1.2;
 }
 
 /* desert scheme ported from vim to google prettify */
@@ -36,9 +35,14 @@ pre .dec { color: #98fb98 } /* decimal         - lightgreen */
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
-li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: decimal }
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 {
+    list-style-type: decimal;
+    margin: 2px, 0px;
+    background-color: #3f3f3f;
+    border-radius: 6px 6px 6px 6px
+}
 /* Alternate shading for lines */
-li.L1,li.L3,li.L5,li.L7,li.L9 { background-color: black }
+li.L1,li.L3,li.L5,li.L7,li.L9 {}
 
 @media print {
   pre.prettyprint { background-color: none }

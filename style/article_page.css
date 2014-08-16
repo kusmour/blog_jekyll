@@ -56,3 +56,7 @@ footer {
 p>a {
 	font-weight: bold;
 }
+
+span>i {
+	font-family: Arial;
+}

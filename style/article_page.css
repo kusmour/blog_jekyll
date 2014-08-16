@@ -17,6 +17,7 @@ article {
 	padding-left: 40px;
 	font-family: fzqkby, Arial, sans-serif;
 	letter-spacing: 1px;
+	font-size: 16px;
 }
 
 .article_wrap h2 {
@@ -59,4 +60,5 @@ p>a {
 
 span>i {
 	font-family: Arial;
+	font-style: normal;
 }

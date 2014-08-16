@@ -11,7 +11,6 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 我不太会写教程之类的东西，鉴于我也是从网上看来的，小伙伴们可以去Google或者百度一下关键词“使用GitHub搭建独立博客”。在这里主要写一下教程里没有的我遇到的问题，还有一些心得。
 
 下面是一些相关链接：
-
 * [GitHub-Pages](https://pages.github.com/)
 * [Jekyll](http://jekyllrb.com/)
 * [Disqus](https://disqus.com/)
@@ -29,8 +28,7 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 定下了基本的布局和风格，写出html代码之后，homepage跟BLOG页面就基本上完成了。我不会告诉你们写这个就用了两个晚上，但是导航栏那个出现横杠的动画效果我写了整整一个晚上。然后我试着写了两篇post上去。git push完了之后在自己的主页上点击一下就能转跳还能看到文章，我简直不能更嘚瑟。
 
 post之类的例子可以看这里：
-
-[Jekyll创始人示例](https://github.com/mojombo/tpw)
+*[Jekyll创始人示例](https://github.com/mojombo/tpw)
 
 其实到这里博客的基本功能就完成了，还有就是评论的功能，当时觉得这个可能很难所以没做，后面会提到我是如何心酸。但是不死就一直作死啊，当时多设置了一个页面分支现在叫HORIZON还没写，于是我就开始着手设计这个页面。
 
@@ -74,8 +72,7 @@ Disqus会提供样式，也支持自己写样式。支持中文，在你的主�
 
 最后，这篇文章实在是写得很糟糕，只好在文章结尾送点福利啦，看，就是它<i class="fa fa-gift"></i>。一个我经常用的icon样式，就像div那样可以直接使用，网站涵盖了很多方面的图标，大小调节跟字体是一样的，方便嵌入到文字中。
 到官方网站下载CSS：
-
-[Font-Awesome](http://fortawesome.github.io/Font-Awesome/)
+* [Font-Awesome](http://fortawesome.github.io/Font-Awesome/)
 
 使用方法如下：
 

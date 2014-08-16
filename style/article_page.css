@@ -33,6 +33,13 @@ article {
 	white-space: pre-wrap;
 }
 
+.article_wrap li {
+	font-weight: bold;
+	font-family: 'PT Sans Narrow';
+	font-size: 20px;
+	list-style-type: none;
+}
+
 .article_wrap br {
 	height: 30px;
 }
@@ -52,11 +59,6 @@ footer {
 
 #disqus_thread {
 	padding-left: 30px;
-}
-
-li {
-	font-weight: bold;
-	list-style-type: none;
 }
 
 span>i {

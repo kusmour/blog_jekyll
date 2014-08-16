@@ -13,7 +13,6 @@ pre {
     word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
-
 .str{color: #EC7600;}
 .kwd{color:#93C763;}
 .com{color:#66747B;}
@@ -26,10 +25,10 @@ pre {
 .atv{color:#EC7600;}
 .dec{color:purple;}
 pre.prettyprint {border:0px solid #888;}
-ol.linenums{margin-top:0;margin-bottom:0;list-style-type: decimal;}
+ol.linenums{margin-top:0;margin-bottom:0;}
 .prettyprint{background:#000;}
-li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{color:#555;}
-li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;}
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{color:#8c8c8c;list-style-type: decimal;}
+li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;list-style-type: decimal;}
 
 @media print {
     .str{color:#060;}

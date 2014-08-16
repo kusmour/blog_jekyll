@@ -28,6 +28,9 @@ article {
 	line-height: 1.5;
 	white-space: pre-wrap;
 }
+.article_wrap li {
+	margin-bottom: 5px;
+}
 
 p>a {
 	font-family: 'PT Sans Narrow';

@@ -37,12 +37,15 @@ pre .dec { color: #98fb98 } /* decimal         - lightgreen */
 ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
 li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 {
     list-style-type: decimal;
-    margin: 2px, 0px;
     background-color: #3f3f3f;
     border-radius: 6px 6px 6px 6px
 }
 /* Alternate shading for lines */
 li.L1,li.L3,li.L5,li.L7,li.L9 {}
+
+code {
+    margin: 2px, 0px;
+}
 
 @media print {
   pre.prettyprint { background-color: none }

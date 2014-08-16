@@ -3,6 +3,10 @@
   src: url('./fzqkby.ttf'); /*这里是字体文件路径*/ 
 }
 
+i {
+	font-family: Arial;
+}
+
 article {
 	float: left;
 	width: 60%;
@@ -50,8 +54,4 @@ footer {
 
 a.inline {
 	font-weight: bold;
-}
-
-i {
-	font-family: Arial;
 }

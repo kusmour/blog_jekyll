@@ -48,10 +48,10 @@ footer {
 	padding-left: 30px;
 }
 
-.inline a {
+a.inline {
 	font-weight: bold;
 }
 
 i {
-	font-family: Arial, sans-serif;
+	font-family: Arial;
 }

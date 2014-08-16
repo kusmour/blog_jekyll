@@ -11,9 +11,11 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 我不太会写教程之类的东西，鉴于我也是从网上看来的，小伙伴们可以去Google或者百度一下关键词“使用GitHub搭建独立博客”。在这里主要写一下教程里没有的我遇到的问题，还有一些心得。
 
 下面是一些相关链接：
-* [GitHub-Pages](https://pages.github.com/)
-* [Jekyll](http://jekyllrb.com/)
-* [Disqus](https://disqus.com/)
+<span class = "li">
+	* [GitHub-Pages](https://pages.github.com/)
+	* [Jekyll](http://jekyllrb.com/)
+	* [Disqus](https://disqus.com/)
+</span>
 
 我的水平大概就是学过基础html、css和js，仅仅懂一点皮毛。为了写这个简直就是现学现卖，不过有一点一定要记住，没有什么是解决不了的，你遇到问题，别人也会遇到，善用搜索引擎很重要。
 

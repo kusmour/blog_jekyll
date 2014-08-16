@@ -11,9 +11,9 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 我不太会写教程之类的东西，鉴于我也是从网上看来的，小伙伴们可以去Google或者百度一下关键词“使用GitHub搭建独立博客”。在这里主要写一下教程里没有的我遇到的问题，还有一些心得。
 
 <p>下面是一些相关链接：</p>
-<span class = "link"> [【GitHub-Pages】](https://pages.github.com/)
-	 [【Jekyll】](http://jekyllrb.com/)
-	 [【Disqus】](https://disqus.com/)
+<span class = "link">[【GitHub-Pages】](https://pages.github.com/)
+	[【Jekyll】](http://jekyllrb.com/)
+	[【Disqus】](https://disqus.com/)
 </span>
 
 我的水平大概就是学过基础html、css和js，仅仅懂一点皮毛。为了写这个简直就是现学现卖，不过有一点一定要记住，没有什么是解决不了的，你遇到问题，别人也会遇到，善用搜索引擎很重要。
@@ -28,7 +28,7 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 
 post之类的例子可以看这里：
 
-<span class = "link"> [【Jekyll创始人示例】](https://github.com/mojombo/tpw)</span>
+<span class = "link">[【Jekyll创始人示例】](https://github.com/mojombo/tpw)</span>
 
 其实到这里博客的基本功能就完成了，还有就是评论的功能，当时觉得这个可能很难所以没做，后面会提到我是如何心酸。但是不死就一直作死啊，当时多设置了一个页面分支现在叫HORIZON还没写，于是我就开始着手设计这个页面。
 
@@ -60,7 +60,7 @@ post之类的例子可以看这里：
 
 具体请看这里：
 
-<span class = "link"> [【Disuqs - Setup For Universal Code】](https://disqus.com/admin/universalcode/)</span>
+<span class = "link">[【Disuqs - Setup For Universal Code】](https://disqus.com/admin/universalcode/)</span>
 
 Disqus会提供样式，也支持自己写样式。支持中文，在你的主页admin>setting里面可以设置允许匿名身份发布，这样不需要任何账号也可以进行评论。总之是一款很方便又很强大的产品。
 
@@ -74,7 +74,7 @@ Disqus会提供样式，也支持自己写样式。支持中文，在你的主�
 
 到官方网站下载CSS：
 
-<span class = "link"> [【Font-Awesome】](http://fortawesome.github.io/Font-Awesome/)</span>
+<span class = "link">[【Font-Awesome】](http://fortawesome.github.io/Font-Awesome/)</span>
 
 使用方法如下：
 

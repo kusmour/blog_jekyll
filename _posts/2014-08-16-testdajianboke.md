@@ -12,9 +12,9 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 
 下面是一些相关链接：
 
-[GitHub-Pages](https://pages.github.com/)
-[Jekyll](http://jekyllrb.com/)
-[Disqus](https://disqus.com/)
+* [GitHub-Pages](https://pages.github.com/)
+* [Jekyll](http://jekyllrb.com/)
+* [Disqus](https://disqus.com/)
 
 我的水平大概就是学过基础html、css和js，仅仅懂一点皮毛。为了写这个简直就是现学现卖，不过有一点一定要记住，没有什么是解决不了的，你遇到问题，别人也会遇到，善用搜索引擎很重要。
 

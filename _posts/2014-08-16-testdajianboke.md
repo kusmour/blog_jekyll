@@ -11,16 +11,14 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 我不太会写教程之类的东西，鉴于我也是从网上看来的，小伙伴们可以去Google或者百度一下关键词“使用GitHub搭建独立博客”。在这里主要写一下教程里没有的我遇到的问题，还有一些心得。
 
 <p>下面是一些相关链接：</p>
-<span class = "link"> [GitHub-Pages](https://pages.github.com/)
-	 [Jekyll](http://jekyllrb.com/)
-	 [Disqus](https://disqus.com/)
+<span class = "link"> [【GitHub-Pages】](https://pages.github.com/)
+	 [【Jekyll】](http://jekyllrb.com/)
+	 [【Disqus】](https://disqus.com/)
 </span>
 
 我的水平大概就是学过基础html、css和js，仅仅懂一点皮毛。为了写这个简直就是现学现卖，不过有一点一定要记住，没有什么是解决不了的，你遇到问题，别人也会遇到，善用搜索引擎很重要。
 
-最最开始的时候我是完全follow教程做的，把基本的部分都弄出来了之后才开始写网页设计和样式，教程都很详细，跟着做基本上没有问题。问题最多的是写html的时候，div的float真是头疼的不行，光一个简单的首页我都写了整整一天。后来实在是太难折腾，我就参考了一些网站，用chrome浏览器查看代码很方便，你们懂的。磕磕绊绊写完了首页，我才发现原来这里面
-<a href = "https://github.com/jekyll/jekyll/wiki/Sites" class = "inline">Jekyll - Sites</a>
-有好多好看的设计可以参考【摔！！
+最最开始的时候我是完全follow教程做的，把基本的部分都弄出来了之后才开始写网页设计和样式，教程都很详细，跟着做基本上没有问题。问题最多的是写html的时候，div的float真是头疼的不行，光一个简单的首页我都写了整整一天。后来实在是太难折腾，我就参考了一些网站，用chrome浏览器查看代码很方便，你们懂的。磕磕绊绊写完了首页，我才发现原来这里面<a href = "https://github.com/jekyll/jekyll/wiki/Sites" class = "inline">【Jekyll - Sites】</a>有好多好看的设计可以参考【摔！！
 
 写html是很繁琐的工作，为了好看，要一点点调css，看到最后我看什么东西都两眼发直看他们对齐了没有。不过没有什么事情是很轻松不需要付出的，哪怕html语言真的很简单，几乎不需要理解能力，但它要求你足够耐心。
 
@@ -30,13 +28,13 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 
 post之类的例子可以看这里：
 
-<span class = "link"> [Jekyll创始人示例](https://github.com/mojombo/tpw)</span>
+<span class = "link"> [【Jekyll创始人示例】](https://github.com/mojombo/tpw)</span>
 
 其实到这里博客的基本功能就完成了，还有就是评论的功能，当时觉得这个可能很难所以没做，后面会提到我是如何心酸。但是不死就一直作死啊，当时多设置了一个页面分支现在叫HORIZON还没写，于是我就开始着手设计这个页面。
 
 很久之前看到过视差滚动（Parallax Scrolling）就很心动，一直想试着做一个这样炫酷的网页出来，但是我花了一天去尝试都没能做出一个像样的页面出来，位置真的很难拿捏，有些网站实在是太高大上，根本看不懂，最后灰溜溜的就放弃了。
 
-一直到实训最后两天实在是没有事情做，又不甘心就这样放弃了，才又把这个捡回来，写得灰头土脸的总算是完成了，这是本博客最引以为豪的页面 <a href="{{ site.baseurl }}/horizon.html">HORIZON</a>，大家一定要戳戳看呀！
+一直到实训最后两天实在是没有事情做，又不甘心就这样放弃了，才又把这个捡回来，写得灰头土脸的总算是完成了，这是本博客最引以为豪的页面 <a href="{{ site.baseurl }}/horizon.html">【HORIZON】</a>，大家一定要戳戳看呀！
 
 写HORIZON也花去了两天，网上有一些简单的教程，用Google搜索的结果比较多，建议大家放弃百度。最后剩下的就是评论功能尚未实现，很多教程里面都提到Disqus评论管理。
 
@@ -62,7 +60,7 @@ post之类的例子可以看这里：
 
 具体请看这里：
 
-<span class = "link"> [Disuqs - Setup For Universal Code](https://disqus.com/admin/universalcode/)</span>
+<span class = "link"> [【Disuqs - Setup For Universal Code】](https://disqus.com/admin/universalcode/)</span>
 
 Disqus会提供样式，也支持自己写样式。支持中文，在你的主页admin>setting里面可以设置允许匿名身份发布，这样不需要任何账号也可以进行评论。总之是一款很方便又很强大的产品。
 
@@ -76,7 +74,7 @@ Disqus会提供样式，也支持自己写样式。支持中文，在你的主�
 
 到官方网站下载CSS：
 
-<span class = "link"> [Font-Awesome](http://fortawesome.github.io/Font-Awesome/)</span>
+<span class = "link"> [【Font-Awesome】](http://fortawesome.github.io/Font-Awesome/)</span>
 
 使用方法如下：
 

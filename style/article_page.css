@@ -3,9 +3,6 @@
   src: url('./fzqkby.ttf'); /*这里是字体文件路径*/ 
 }
 
-i {
-	font-family: Arial;
-}
 
 article {
 	float: left;
@@ -17,7 +14,6 @@ article {
 	padding-left: 40px;
 	font-family: fzqkby, Arial, sans-serif;
 	letter-spacing: 1px;
-	font-size: 16px;
 }
 
 .article_wrap h2 {
@@ -33,12 +29,15 @@ article {
 	white-space: pre-wrap;
 }
 
+p>a {
+	font-family: 'PT Sans Narrow';
+}
+
 span.link {
 	clear: both;
 	font-weight: bold;
 	font-family: 'PT Sans Narrow';
 	font-size: 20px;
-	text-decoration: underline;
 }
 
 .article_wrap br {
@@ -60,9 +59,4 @@ footer {
 
 #disqus_thread {
 	padding-left: 30px;
-}
-
-span>i {
-	font-family: Arial;
-	font-style: normal;
 }

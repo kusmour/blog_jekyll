@@ -1,12 +1,10 @@
 ---
 layout: article
-title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
+title: 搭建博客（Jekyll模板 + Disqus评论管理）
 ---
 <h2>{{ page.title }}</h2>
 
 写这个网站是一个很偶然的决定，也可以说这完全是无聊的产物。大学的暑假是没有作业的，我还没得出去玩，无聊的长草的时候又机缘巧合了解到gitHub可以搭建独立博客，于是我就开始了新的尝（wan）试（tuo）。
-
-从7月底第一次接触博客搭建到现在八月中旬博客最后一个HORIZON页面完成，中间还夹着一个为期两周的实训，真正花在代码的时间大概也就是几天而已。如果有心做一件事，并且愿意花时间，其实做好一点都不难。
 
 我不太会写教程之类的东西，鉴于我也是从网上看来的，小伙伴们可以去Google或者百度一下关键词“使用GitHub搭建独立博客”。在这里主要写一下教程里没有的我遇到的问题，还有一些心得。
 
@@ -16,11 +14,11 @@ title: 搭建博客（Jekyll模板 + 视差滚动 + Disqus评论管理）
 	[【Disqus】](https://disqus.com/)
 </span>
 
-我的水平大概就是学过基础html、css和js，仅仅懂一点皮毛。为了写这个简直就是现学现卖，不过没有什么是解决不了的，你遇到问题，别人也会遇到，善用搜索引擎很重要。
+我的水平大概就是学过基础html、css和js，仅仅懂一点皮毛，为了写这个简直就是现学现卖。
 
 最最开始的时候我是完全follow教程做的，把基本的部分都弄出来了之后才开始写网页设计和样式，教程都很详细，跟着做基本上没有问题。问题最多的是写html的时候，div的float真是头疼的不行，光一个简单的首页我都写了整整一天。后来实在是太难折腾，我就参考了一些网站，用chrome浏览器查看代码很方便，你们懂的。磕磕绊绊写完了首页，我才发现原来这里面<a href = "https://github.com/jekyll/jekyll/wiki/Sites" class = "inline">【Jekyll - Sites】</a>有好多好看的设计可以参考【摔！！
 
-写html是很繁琐的工作，为了好看，要一点点调css，看到最后我看什么东西都两眼发直看他们对齐了没有。但是想想天上哪有那么多馅饼掉下来还正好能砸到你，没有什么事情是很轻松不需要付出的，哪怕html语言真的很简单，几乎不需要理解能力，但它要求你足够耐心。
+写html是很繁琐的工作，为了好看，要一点点调css，看到最后我看什么东西都两眼发直看他们对齐了没有。
 
 鉴于github上面文件的相对路径与本地是一致的，所以在html文件里面直接使用相对路径就行了，不过注意在_layout里面的html文件，也就是你自己写的一些模板里面不能使用相对路径，因为你的post或是其他内容套用了模板之后路径会改变（变深了），可以使用jekyll的变量“site.baseurl”写上全路径。
 
@@ -30,20 +28,14 @@ post之类的例子可以看这里：
 
 <span class = "link">[【Jekyll创始人示例】](https://github.com/mojombo/tpw)</span>
 
-其实到这里博客的基本功能就完成了，还有就是评论的功能，当时觉得这个可能很难所以没做，后面会提到我是如何心酸。但是不死就一直作死啊，当时多设置了一个页面分支现在叫HORIZON还没写，于是我就开始着手设计这个页面。
-
-很久之前看到过视差滚动（Parallax Scrolling）就很心动，一直想试着做一个这样炫酷的网页出来，但是我花了一天去尝试都没能做出一个像样的页面出来，位置真的很难拿捏，有些网站实在是太高大上，根本看不懂，最后灰溜溜的就放弃了。
-
-一直到实训最后两天实在是没有事情做，又不甘心就这样放弃了，才又把这个捡回来，写得灰头土脸的总算是完成了，这是本博客最引以为豪的页面 <a href="{{ site.baseurl }}/horizon.html">【HORIZON】</a>，大家一定要戳戳看呀！
-
-写HORIZON也花去了两天，网上有一些简单的教程，用Google搜索的结果比较多，建议大家放弃百度。最后剩下的就是评论功能尚未实现，很多教程里面都提到Disqus评论管理。
+到这里博客的基本功能就完成了，还有就是评论的功能，当时觉得这个可能很难所以没做，就搁置了，事实证明我真是笨蛋。
 
 我之前并没有了解过Disqus，甚至没有听过，搜了一下惊呆了，据说是媲美Facebook的评论系统，而且可以嵌入到自己的主页里面，这个兼容性也是很强的。之前说觉得很难，真的是冤枉了Disqus服务的便利性。对于自己写的网页，只需要粘贴下面这段代码到html文件里面，你希望评论功能面板出现的位置就可以了。然后注册一下，添加博客的网址，finish！
 
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
 	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-	    var disqus_shortname = 'example'; // required: replace example with your forum shortname 这个地方需要改成你配置的网站名
+	    var disqus_shortname = 'example'; // required: replace example with your forum shortname 这个地方需要改成你在Disqus上配置的网站名
 	    /* * * DON'T EDIT BELOW THIS LINE * * */
 	    (function() {
 	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -58,7 +50,7 @@ post之类的例子可以看这里：
 
 <span class = "link">[【Disuqs - Setup For Universal Code】](https://disqus.com/admin/universalcode/)</span>
 
-Disqus会提供样式，也支持自己写样式。支持中文，在你的主页admin>setting里面可以设置允许匿名身份发布，这样不需要任何账号也可以进行评论。总之是一款很方便又很强大的产品。
+Disqus会提供样式，也支持自己写样式。支持中文，在你的主页admin>setting里面可以设置允许匿名身份发布，这样不需要任何账号也可以进行评论。总之是一款很方便又很强大的产品。不过修改了设置之后生效需要时间，需要等待，不过没有耐心的po主刷新了半天都没有见到更改就重新来了一下= =
 
 <div>
 	<img class = "illustration" src = "{{site.baseurl}}/photos/2014-08-16/1.png" alt = "illustration" />

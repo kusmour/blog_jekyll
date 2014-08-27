@@ -9,14 +9,13 @@
 	height: 100%;
 	background-color: white;
 	position: fixed;
-	text-align: center;
 }
 
 #loading_gif {
 	background: url('../photos/load1.gif') no-repeat center;
 	top: 37%;
+	left: 40%;
 	position: fixed;
-	display: inline-block;
 	width: 128px;
 	height: 128px;
 }
@@ -25,8 +24,6 @@
 	top: 47%;
 	position: fixed;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 	font-size: 30px;
 }

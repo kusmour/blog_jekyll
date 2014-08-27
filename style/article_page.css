@@ -8,15 +8,13 @@
 	width: 100%;
 	height: 100%;
 	background-color: white;
-	position: fixed;
-	text-align: center;
-}
+	position: fixed;}
 
 #loading_gif {
 	background: url('../photos/load1.gif') no-repeat center;
 	top: 37%;
 	position: fixed;
-	display: inline-block;
+	margin: 0 auto;
 	width: 128px;
 	height: 128px;
 }

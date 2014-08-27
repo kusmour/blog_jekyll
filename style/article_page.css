@@ -16,6 +16,7 @@
 	background: url('../photos/load1.gif') no-repeat center;
 	top: 37%;
 	position: fixed;
+	display: inline-block;
 	width: 128px;
 	height: 128px;
 }

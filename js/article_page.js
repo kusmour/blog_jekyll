@@ -11,6 +11,5 @@ $(document).ready( function() {
 });
 
 $(window).load( function() {
-	jQuery.noConflict();
 	$("#loading").fadeOut();
 });

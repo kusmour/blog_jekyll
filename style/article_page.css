@@ -17,7 +17,8 @@
 	width: 128px;
 	height: 128px;
 	display: inline-block;
-	vertical-align: middle;
+	top: 37%;
+	position: fixed;
 }
 
 #loading p {

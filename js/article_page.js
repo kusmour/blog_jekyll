@@ -9,7 +9,3 @@ $(document).ready( function() {
 		$(".illustration").css("width", width_ + "px");
 	});
 });
-
-$(window).load( function() {
-	$("#loading").hide();
-});

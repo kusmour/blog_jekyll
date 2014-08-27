@@ -8,7 +8,6 @@ body {
 	background: url('../photos/load1.gif') no-repeat 10px top;
 	margin: auto;
 	width: 128px;
-	position: fixed;
 }
 
 a:link{

@@ -5,8 +5,8 @@
 
 #loading {
 	z-index: 7;
+	top: -10px;
 	width: 100%;
-	height: 100%;
 	position: fixed;
 	padding-top: 30%;
 	background-color: white;

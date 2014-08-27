@@ -1,4 +1,7 @@
 $(document).ready( function() {
+
+	$("#loading").fadeOut();
+
 	//alert("hello");
 	var width_ = $(document.body).width();
 	$("#banner_photo").css("width", width_ + "px");

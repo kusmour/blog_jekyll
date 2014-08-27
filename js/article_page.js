@@ -9,3 +9,8 @@ $(document).ready( function() {
 		$(".illustration").css("width", width_ + "px");
 	});
 });
+
+$(window).load( function() {
+	jQuery.noConflict();
+	$("#loading").fadeOut();
+});

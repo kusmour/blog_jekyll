@@ -7,8 +7,9 @@
 	z-index: 7;
 	width: 100%;
 	height: 100%;
-	background-color: white;
 	position: fixed;
+	background-color: white;
+	text-align: center;
 }
 
 #loading_gif {
@@ -18,14 +19,14 @@
 	position: fixed;
 	width: 128px;
 	height: 128px;
+	display: inline-block;
 }
 
 #loading p {
-	bottom: 37%;
+	bottom: 27%;
 	position: fixed;
-	width: 100%;
-	text-align: center;
 	font-size: 30px;
+	display: inline-block;
 }
 
 article {

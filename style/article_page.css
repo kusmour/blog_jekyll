@@ -14,16 +14,12 @@
 
 #loading_gif {
 	background: url('../photos/load1.gif') no-repeat center;
-	top: 37%;
-	position: fixed;
 	width: 128px;
 	height: 128px;
 	display: inline-block;
 }
 
 #loading p {
-	bottom: 27%;
-	position: fixed;
 	font-size: 30px;
 	display: inline-block;
 }

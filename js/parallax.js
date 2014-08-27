@@ -81,3 +81,7 @@ function redrawDotNav(){
 	}
 	
 }
+
+$(window).load( function() {
+	$("#loading").fadeOut();
+});

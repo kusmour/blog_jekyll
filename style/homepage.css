@@ -2,6 +2,31 @@ body {
 	font-family: 'PT Sans Narrow', Arial, sans-serif;
 }
 
+#loading {
+	z-index: 7;
+	top: -10px;
+	width: 100%;
+	position: fixed;
+	padding-top: 270px;
+	padding-bottom: 500px;
+	background-color: white;
+	text-align: center;
+}
+
+#loading_gif {
+	background: url('../photos/load1.gif') no-repeat center;
+	width: 128px;
+	height: 128px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#loading p {
+	font-size: 30px;
+	display: inline-block;
+	text-indent: 0;
+}
+
 a:link{
 	text-decoration: none solid;
 	color: #676767;

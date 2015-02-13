@@ -11,7 +11,7 @@ article {
 }
 
 .article_wrap {
-	padding-left: 40px;
+	padding-left: 0px;
 	font-family: fzqkby, Arial, sans-serif;
 	letter-spacing: 1px;
 }
@@ -55,7 +55,7 @@ span.link {
 }
 
 .small {
-	width: 33%;
+	width: 32%;
 }
 
 .footer_wrap {

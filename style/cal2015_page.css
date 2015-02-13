@@ -59,6 +59,7 @@ span.link {
 
 .small {
 	width: 32%;
+	z-index: 0;
 }
 
 .footer_wrap {

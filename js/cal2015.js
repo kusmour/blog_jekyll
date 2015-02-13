@@ -1,16 +1,22 @@
 $(document).ready( function() {
 	//alert("hello");
-	setInterval(mouseover, 200);
-	setInterval(mouseleave, 200);
 	$("#small").mouseover( function() {
-		//alert($(document).width());
-		var width_ = $(".big").width() * 0.7;
-		$("#small").css("width", width_ + "px");
-		$("#small").css("z-index", "5");
+		setInterval(zoom_in, 200);
 	});
 	$("#small").mouseleave( function() {
-		//alert($(document).width());
-		$("#small").css("z-index", "0");
-		$("#small").css("width", "32%");
+		setInterval(zoom_out, 200);
 	});
 });
+
+function zoom_in() {
+	//alert($(document).width());
+	var width_ = $(".big").width() * 0.7;
+	$("#small").css("width", width_ + "px");
+	$("#small").css("z-index", "5");
+}
+
+function zoom_out() {
+	//alert($(document).width());
+	$("#small").css("z-index", "0");
+	$("#small").css("width", "32%");
+}

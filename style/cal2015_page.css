@@ -57,9 +57,16 @@ span.link {
 	padding: 0px;
 }
 
-#small {
+#small img {
 	width: 32%;
 	z-index: 0;
+	postion: absolute;
+	float: left;
+}
+
+#small a:hover>img {
+	width: 72%;
+	z-index: 5;
 }
 
 .footer_wrap {

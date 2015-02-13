@@ -19,15 +19,13 @@ article {
 .article_wrap h2 {
 	font-size: 30px;
 	margin-bottom: 80px;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 }
 
 .article_wrap p {
 	font-size: 16px;
 	line-height: 1.5;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 	white-space: pre-wrap;
 }
 

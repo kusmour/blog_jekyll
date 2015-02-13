@@ -1,10 +1,10 @@
 $(document).ready( function() {
 	//alert("hello");
 	$("#small").mouseover( function() {
-		setInterval(zoom_in, 200);
+		setInterval(zoom_in(), 200);
 	});
 	$("#small").mouseleave( function() {
-		setInterval(zoom_out, 200);
+		setInterval(zoom_out(), 200);
 	});
 });
 

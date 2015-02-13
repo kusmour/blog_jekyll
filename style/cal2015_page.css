@@ -59,6 +59,11 @@ span.link {
 
 #small img {
 	width: 32%;
+}
+
+/*
+#small img {
+	width: 32%;
 	z-index: 0;
 	postion: absolute;
 	float: left;
@@ -68,6 +73,7 @@ span.link {
 	width: 72%;
 	z-index: 5;
 }
+*/
 
 .footer_wrap {
 	padding-bottom: 3em;

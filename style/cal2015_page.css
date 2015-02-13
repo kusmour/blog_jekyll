@@ -54,6 +54,10 @@ span.link {
 	width: 100%;
 }
 
+.small {
+	width: 33%;
+}
+
 .footer_wrap {
 	padding-bottom: 3em;
 }

@@ -207,7 +207,9 @@ article {
 .notice h4 {
 	font-size: 22px;
 }
-
+.notice a {
+	font-size: 20px;
+}
 .footer_wrap {
 	padding-bottom: 3em;
 }

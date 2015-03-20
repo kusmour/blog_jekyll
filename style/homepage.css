@@ -204,6 +204,9 @@ article {
 .notice {
 	font-weight: bold;
 }
+.notice h4 {
+	font-size: 22px;
+}
 
 .footer_wrap {
 	padding-bottom: 3em;

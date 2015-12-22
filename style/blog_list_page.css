@@ -32,6 +32,7 @@ article {
 }
 
 .article_list a{
+	text-decoration: none solid;
 	font-family: fzqkby;
 	font-size: 25px;
 	font-weight: bold;

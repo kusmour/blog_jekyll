@@ -27,6 +27,10 @@ body {
 	text-indent: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:link{
 	text-decoration: none solid;
 	color: #676767;
